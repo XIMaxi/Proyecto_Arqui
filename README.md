@@ -4,3 +4,5 @@ Manuel Arriagada
 Fernando Castillo
 
 ## Diagrama de casos de uso
+
+## Diagrama de clases
