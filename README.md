@@ -3,6 +3,6 @@ Proyecto de arquitectura de software
 Manuel Arriagada  
 Fernando Castillo
 
-## Diagrama de casos de uso
+## Instrucciones
 
-## Diagrama de clases
+python3 buscaminas.py
