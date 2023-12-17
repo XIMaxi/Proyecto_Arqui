@@ -1,5 +1,6 @@
-# Proyecto_Arqui
-Proyecto de arquitectura de software  
+# Proyecto Arquitectura - INFO229
+Juego Buscaminas
+
 Manuel Arriagada  
 Fernando Castillo
 
