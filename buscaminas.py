@@ -3,12 +3,13 @@ from tkinter import messagebox
 import random
 import time
 
-
+# Patrón de diseño Observer
 class Observer:
     def update(self):
         pass
 
 
+# Lógica del juego Buscaminas
 class LogicaJuegoBuscaminas:
     def __init__(self, n=8, minas_no=8):
         self.n = n
@@ -22,9 +23,11 @@ class LogicaJuegoBuscaminas:
         self.configurar_minas()
         self.configurar_valores()
 
+     # Método para agregar observadores
     def attach(self, observer):
         self.observers.append(observer)
 
+    # Método para notificar a los observadores
     def notify_observers(self):
         for observer in self.observers:
             observer.update()
@@ -113,6 +116,7 @@ class LogicaJuegoBuscaminas:
             self.terminado = True
 
 
+# Interfaz de usuario Buscaminas
 class InterfazUsuarioBuscaminas(tk.Tk, Observer):
     def __init__(self, logica_juego):
         super().__init__()
