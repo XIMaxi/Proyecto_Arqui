@@ -5,6 +5,9 @@ Juego Buscaminas
 Manuel Arriagada  
 Fernando Castillo
 
+## link del informe
+https://docs.google.com/document/d/1ZLZJSMXfTDsqqTIWPdtIHhDBI9bFKUmKjGzgH74ttnA/edit
+
 ## Instrucciones
 
 python3 buscaminas.py
